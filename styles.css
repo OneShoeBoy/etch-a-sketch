@@ -1,0 +1,22 @@
+/*.container{*/
+/*  display: flex;*/
+/*  flex-direction: row;*/
+/*  height: 6.25vh;*/
+/*  width: 6.25vw;*/
+/*}*/
+/*.gridItem{*/
+/*  display: inline-block;*/
+/*  border: solid;*/
+/*  background: white;*/
+/*  width: 5vw;*/
+/*  height: 5vw;*/
+/*}*/
+
+.row{
+  display: flex;
+}
+.column{
+  flex: 1 0 auto;
+  border:1px, solid;
+  aspect-ratio: 1/1;
+}
