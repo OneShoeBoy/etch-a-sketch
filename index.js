@@ -1,9 +1,13 @@
 const container = document.querySelector("#container");
 const header = document.querySelector("#header");
 const setGrid = document.createElement("button");
+const resetGrid = document.createElement("button");
+
 setGrid.textContent = "Set grid size";
+resetGrid.textContent = "Reset grid";
 
 header.appendChild(setGrid);
+header.appendChild(resetGrid);
 
 function generateGrid(grid) {
   for (let i = 0; i < grid.y; i++) {
@@ -66,6 +70,9 @@ setGrid.addEventListener("click", () => {
 
 })
 
+resetGrid.addEventListener("click", () => {
+  location.reload()
+})
 
 
 // grid.x = 100;
