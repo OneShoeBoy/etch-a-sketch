@@ -74,8 +74,3 @@ resetGrid.addEventListener("click", () => {
   location.reload()
 })
 
-
-// grid.x = 100;
-// grid.y = 100;
-
-
